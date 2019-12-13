@@ -8,6 +8,10 @@ class String
 {
     public $string;
 
+    /**
+     * String constructor.
+     * @param $string
+     */
     public function __construct($string)
     {
         $this->string = $string;
