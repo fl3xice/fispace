@@ -6,20 +6,20 @@ namespace flexice\space\apexs;
 
 use Exception;
 
-class FiString
+class FiFloat
 {
     public $data;
 
     /**
-     * String constructor.
-     * @param $string
+     * FiFloat constructor.
+     * @param $floatnumberl
      * @throws Exception
      */
-    public function __construct($string)
+    public function __construct($floatnumberl)
     {
-        if (is_string($string))
+        if (is_float($floatnumberl))
         {
-            $this->data = $string;
+            $this->data = $floatnumberl;
             return $this->data;
         } else {
             throw new Exception("Data Type Mismatch","5089",'$data = new SomeType(<< `Data` >>);');
@@ -32,6 +32,6 @@ class FiString
     public function __toString()
     {
         // TODO: Implement __toString() method.
-        return $this->data;
+        return strval($this->data);
     }
 }
