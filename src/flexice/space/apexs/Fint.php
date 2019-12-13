@@ -6,20 +6,21 @@ namespace flexice\space\apexs;
 
 use Exception;
 
-class FiString
+class Fint
 {
+
     public $data;
 
     /**
-     * String constructor.
-     * @param $string
+     * Fint constructor.
+     * @param int $number
      * @throws Exception
      */
-    public function __construct($string)
+    public function __construct($number)
     {
-        if (is_string($string))
+        if (is_integer($number))
         {
-            $this->data = $string;
+            $this->data = $number;
             return $this->data;
         } else {
             throw new Exception("Data Type Mismatch","5089",'$data = new SomeType(<< `Data` >>);');
