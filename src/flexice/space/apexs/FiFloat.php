@@ -12,7 +12,7 @@ class FiFloat
 
     /**
      * FiFloat constructor.
-     * @param $floatnumberl
+     * @param $floatnumber
      * @throws Exception
      */
     public function __construct($floatnumber)
