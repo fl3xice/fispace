@@ -1,11 +1,11 @@
 <?php
 
 // Require Auto Loader
-require_once "./vendor/autoload.php";
+require_once "../vendor/autoload.php";
 
 // Uses
 
-use flexice\space\apexs\String;
+use flexice\space\apexs\FiString;
 use flexice\space\FiSpace;
 use flexice\space\FiUse;
 
@@ -14,8 +14,8 @@ $FiSpace = new FiSpace(new FiUse([
     "String"
 ]));
 
-$String = new String("Hello World!");
+$String = new FiString("Hello World!");
 print $String->string;
 
-$Var2 = new String("Donate Me ¯\_(ツ)_/¯");
+$Var2 = new FiString("Donate Me ¯\_(ツ)_/¯");
 print $Var2->string;

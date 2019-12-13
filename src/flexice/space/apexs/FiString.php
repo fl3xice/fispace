@@ -4,7 +4,7 @@
 namespace flexice\space\apexs;
 
 
-class String
+class FiString
 {
     public $string;
 
