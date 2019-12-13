@@ -15,4 +15,4 @@ $FiSpace = new FiSpace(new FiUse([
 ]));
 
 $String = new Fint(89);
-print $String->data;
+print $String;

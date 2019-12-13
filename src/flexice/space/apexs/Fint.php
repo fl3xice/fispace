@@ -26,4 +26,10 @@ class Fint
             throw new Exception("Data Type Mismatch","5089",'$data = new SomeType(<< `Data` >>);');
         }
     }
+
+    public function __toString()
+    {
+        // TODO: Implement __toString() method.
+        return strval($this->data);
+    }
 }

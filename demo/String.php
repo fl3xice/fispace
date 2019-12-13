@@ -15,7 +15,7 @@ $FiSpace = new FiSpace(new FiUse([
 ]));
 
 $String = new FiString("Hello World!");
-print $String->data;
+print $String;
 
 $Var2 = new FiString("Donate Me ¯\_(ツ)_/¯");
-print $Var2->data;
+print $Var2;
