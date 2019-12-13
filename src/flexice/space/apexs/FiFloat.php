@@ -15,11 +15,11 @@ class FiFloat
      * @param $floatnumberl
      * @throws Exception
      */
-    public function __construct($floatnumberl)
+    public function __construct($floatnumber)
     {
-        if (is_float($floatnumberl))
+        if (is_float($floatnumber))
         {
-            $this->data = $floatnumberl;
+            $this->data = $floatnumber;
             return $this->data;
         } else {
             throw new Exception("Data Type Mismatch","5089",'$data = new SomeType(<< `Data` >>);');
