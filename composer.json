@@ -14,5 +14,8 @@
       "flexice\\space\\": "src/flexice/space",
       "flexice\\space\\apexs\\": "src/flexice/space/apexs"
     }
+  },
+  "require": {
+    "curl/curl": "2.2.0"
   }
 }
