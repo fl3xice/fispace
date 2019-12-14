@@ -10,7 +10,9 @@ use flexice\space\FiSpace;
 use flexice\space\FiUse;
 
 // Create Example Class FiSpace And Add In His Arguments
-$FiSpace = new FiSpace(new FiUse());
+$FiSpace = new FiSpace(new FiUse([
+    "FiBool"
+]));
 
 $BoolTrue = new FiBool(true);
 $BoolFalse = new FiBool(false);
